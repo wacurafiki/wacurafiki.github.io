@@ -1,0 +1,101 @@
+a{
+	text-decoration:none;
+	color: white;
+}		
+	.video{
+		float: left;
+		width: 60%;
+		height: 100%;
+		overflow-y: visible;
+		}
+
+	.films{
+		float: right;
+		width: 40%;
+		height:60%;
+		position: fixed;
+		right: 0;
+		}
+
+	.images{
+		margin: 5px;
+		border 1px solid #ccc;
+		width: 200px;
+		height: 400px;
+		float: left;
+		}
+
+	div.images: hover{
+		border: 1px solid $777;
+		}
+
+	div.images img{
+		width: 100%;
+		height: 74%;
+		color: grey;
+		}
+
+	div.name{
+		padding: 15px;
+		text-align: center;
+		height: 1%;
+		color: white;
+		}
+
+	button{
+		width: 100%;
+		position: relative;
+		top: -50px;
+		}
+
+	iframe{
+		border-color: black;
+		}
+
+	button.a{
+		width: 20%;
+		float: left;
+		}
+
+	button.b{
+		width: 20%;
+		float: right;
+		}
+
+	.fixed{
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 13%;
+		
+		}
+
+	div.type {
+		text-align: right;
+		text-color: white;
+		}
+
+	div.langue {
+		text-align: right;
+		
+		right: 20px;
+		margin-bottom: 20px;
+		}
+		#ab{margin-top: 10px;}
+		#aba{margin-right: 18px;}
+
+	}
+	#imgs{
+		width: 200px;
+		height: 340px;
+	}
+ 
+  .footer{
+
+  	color: white;
+  	height: 5%;
+  	width: 100%;
+  	float: left;
+
+  }
+	

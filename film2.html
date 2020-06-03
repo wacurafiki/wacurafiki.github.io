@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="UTF-B">
+	<title>NETFLIX Simulation</title>
+<link rel="stylesheet" type="text/css" href="stylesheet100.css">
+
+	
+</head>
+
+	<body bgcolor="black">
+
+		<div class="fixed"><img src="images/netflix.jpg" width="90" height="93" alt="Klematis" align="left"> <br><br><div class="type"><a href="film2.html">Films</a>&nbsp; &nbsp; &nbsp; <a href="series2.html">Series</a>&nbsp; &nbsp; &nbsp; <a href="cartoons2.html">Cartoons</a> &nbsp; &nbsp; &nbsp;
+
+	<p id = "aba"><a href="index.html">Anglais</a></div><br>
+
+		<div id = "ab"><button class="a" onclick="resetElement()">Rafraîchir</button></div><br><br>
+		</div><br><br><br><br><br>
+
+
+		<div class="video">
+		<div class="images" id="img1">
+		<div id="imgs" style="height:310px">
+
+		<img src="images/one missed call.jpg"  onclick="document.getElementById('myvideo').src='https://www.youtube.com/embed/H9-fOJHnjm0';document.getElementById('dsk').innerHTML = 'Un appel manqué est un film dhorreur surnaturel de 2008  réalisé par Eric Valette et écrit par Andrew Klavan. Coproduction internationale entre les États-Unis, le Royaume-Uni, le Japon et lAllemagne , il sagit dun remake du film japonais du même nom réalisé en 2003 par Takashi Miike, lui-même basé sur le roman de Yasushi Akimoto Chakushin Ari . Le film met en vedette Shannyn Sossamon, Edward Burns, Ana Claudia Talancón, Ray Wise et Azura Skye.Le film est sorti en Amérique du Nord le 4 janvier 2008. Malgré un succès au box-office modéré, le film a été filmé par des critiques de cinéma, avec de nombreux le considérant comme le pire remake de J-horror à paraître. Il est devenu le film le plus critiqué de 2008, recevant une rare approbation de 0% sur Rotten Tomatoes et remportant un Moldy Tomato Award. '"></div>
+		<div class="name"><p>Un appel manqué</p></div> 
+
+		<div class="position">
+
+			<button onclick="removeElement1()">Supprimer</button><br>
+			<button onclick="changeVisibility1()">Cacher</button>
+
+		</div>
+		</div>
+
+		<div class="images" id="img2">
+			<div id="imgs" style="height:310px">
+
+		    <img src="images/moon light.jpg"  onclick="document.getElementById('myvideo').src='https://www.youtube.com/embed/9NJj12tJzqc';document.getElementById('dsk').innerHTML = 'Clair de lune est un film dramatique américain de passage à lâge adulte de 2016 écrit et réalisé par Barry Jenkins, basé sur la pièce semi-autobiographique inédite de Tarell Alvin McCraneys In Moonlight Black Boys Look Blue. Il met en vedette Trevante Rhodes, André Holland, Janelle Monáe, Ashton Sanders, Jharrel Jerome, Naomie Harris et Mahershala Ali.Le film présente trois étapes de la vie du personnage principal: sa jeunesse, son adolescence et sa vie de jeune adulte. Il explore les difficultés auxquelles il est confronté avec sa sexualité et son identité, y compris les abus physiques et émotionnels quil endure en grandissant. Tourné à Miami, en Floride, à partir de 2015, Moonlight a été présenté en première au Telluride Film Festival le 2 septembre 2016. Distribué par A24, le film est sorti aux États-Unis le 21 octobre 2016 et a rapporté plus de 65 millions de dollars dans le monde. acclamé par la critique et est couramment cité comme lun des meilleurs films du 21e siècle. Meilleur scénario adapté pour Jenkins et McCraney parmi un total de huit nominations. Il est devenu le premier film avec une distribution entièrement noire, le premier film lié aux LGBTQ et le deuxième film le moins rentable au pays (derrière The Hurt Locker) à remporter lOscar du meilleur film.'"></div>
+		<div class="name"><p>Clair de lune</p></div>
+
+		<div class="position">
+			<button onclick="removeElement2()">Supprimer</button><br>
+			<button onclick="changeVisibility2()">Cacher</button>
+		</div>
+		</div>
+
+		<div class="images" id="img3">
+			<div id="imgs" style="height:310px">
+
+			<img src="images/bad boys.jpg"  onclick="document.getElementById('myvideo').src='https://www.youtube.com/embed/jKCj3XuPG8M';document.getElementById('dsk').innerHTML = 'Mauvais garçons pour la vie est un film daction américain de 2020 réalisé par Adil & Bilall et écrit par Chris Bremner, Peter Craig et Joe Carnahan. La suite de Bad Boys II (2003), cest le troisième opus de la trilogie Bad Boys et est basé sur une histoire de Craig et Carnahan. Le film met en vedette Will Smith, Martin Lawrence, Paola Núñez, Vanessa Hudgens, Alexander Ludwig, Charles Melton, Kate del Castillo, Nicky Jam, Thomas Brag et Joe Pantoliano. Smith a coproduit le film avec Jerry Bruckheimer et Doug Belgrad. Dans Bad Boys for Life, les détectives de Miami Mike Lowrey et Marcus Burnett enquêtent sur une série de meurtres liés au passé troublé de Lowreys. , mais les contraintes budgétaires ont rendu la suite difficile. Le film a connu plusieurs tentatives dentrée en production au cours dune décennie, avec une variété décrivains et de réalisateurs attachés. Le projet a finalement été finalisé et éclairé en vert en octobre 2018, et le tournage a commencé lannée suivante, de janvier à juin 2019. La photographie principale a eu lieu à Atlanta, Miami et Mexico. '">
+		</div>
+
+		<div class="name"><p>Mauvais garçons</p></div>
+
+		<div class="position">
+			<button onclick="removeElement3()">Supprimer</button><br>
+			<button onclick="changeVisibility3()">Cacher</button>
+		</div>
+		</div>
+
+		<div class="images" id="img4">
+			<div id="imgs" style="height:310px">
+
+		<img src="images/spide.jpg" onclick="document.getElementById('myvideo').src='https://www.youtube.com/embed/TYMMOjBUPMM';document.getElementById('dsk').innerHTML = 'Homme araignée est un film de super-héros américain de 2002 basé sur le personnage de Marvel Comics du même nom. Réalisé par Sam Raimi à partir dun scénario de David Koepp, il sagit du premier opus de la trilogie Spider-Man, et met en vedette Tobey Maguire en tant que personnage principal, aux côtés de Willem Dafoe, Kirsten Dunst, James Franco, Cliff Robertson et Rosemary Harris. Le film se concentre sur un génie adolescent banni nommé Peter Parker, qui développe des capacités surhumaines semblables à des araignées après avoir été mordu par une araignée génétiquement modifiée. Après que son père adoptif / oncle a été assassiné par un criminel armé, ce dont il était partiellement responsable, un Parker tourmenté est plus tard conduit à utiliser ses nouvelles capacités dans un but plus noble, en tant que héros / justicier Spider-Man, pour expier pour le meurtre de ses oncles. Le reste du film se concentre sur les efforts de Parker pour équilibrer sa vie personnelle alors quil sort du lycée et devient photographe indépendant, tout en luttant avec ses études, son amitié avec son meilleur ami denfance Harry Osborn, ses sentiments grandissants pour son ancien lycée lécole écrase Mary Jane Watson et sa double vie de Spider-Man. '">
+	</div>
+
+		<div class="name"><p>Homme araignée</p></div> 
+
+		<div class="position">
+			<button onclick="removeElement4()">Supprimer</button><br>
+			<button onclick="changeVisibility4()">Cacher</button>
+		</div>
+		</div>
+
+		<div class="images" id="img5">
+			<div id="imgs" style="height:310px">
+
+		<img src="images/love birds.jpg"  onclick="document.getElementById('myvideo').src='https://www.youtube.com/embed/YzPq8uVgLe8';document.getElementById('dsk').innerHTML = 'Les oiseaux damour est un film de comédie romantique américain de 2020 réalisé par Michael Showalter à partir dun scénario dAaron Abrams et Brendan Gall, et une histoire dAbrams, Gall et Martin Gero. Le film met en vedette Issa Rae et Kumail Nanjiani, ainsi que Paul Sparks, Anna Camp et Kyle Bornheimer, et suit un couple qui senfuit après avoir été témoin dun meurtre. 2020, le film a été retardé en raison de la pandémie de COVID-19 fermant les cinémas dans le monde. Ses droits ont ensuite été vendus à Netflix, qui a sorti le film numériquement le 22 mai 2020. Le film a reçu des critiques mitigées de la part des critiques, bien que les performances de Rae et Nanjianis aient été saluées. '">
+	</div>
+
+		<div class="name"><p>Les oiseaux d'amour</p></div>
+
+		<div class="position">
+			<button onclick="removeElement5()">Supprimer</button><br>
+			<button onclick="changeVisibility5()">Cacher</button>
+		</div>
+		</div>
+
+
+		<div class="images" id="img6">
+			<div id="imgs" style="height:310px">
+
+		<img src="images/the truth.jpg"  onclick="document.getElementById('myvideo').src='https://www.youtube.com/embed/CKk94z4QApY';document.getElementById('dsk').innerHTML = 'La vérité est un film docudrame politique américain de 2015 écrit et réalisé par James Vanderbilt à ses débuts de réalisateur. Il est basé sur les mémoires de Truth and Duty: The Press, the President and the Privilege of Power, journaliste et productrice de télévision américaine Mary Mapess. Le film se concentre sur la controverse des documents de Killian et les derniers jours de lanimatrice Dan Rather et de la productrice Mary Mapes à CBS News. Il met en vedette Cate Blanchett comme Mapes et Robert Redford comme Rather.Truth a été présenté en première mondiale au Festival international du film de Toronto 2015. Le film a reçu une sortie limitée aux États-Unis le 16 octobre 2015, avant dêtre diffusé dans tout le pays le 30 octobre 2015 par Sony Pictures Classics.Le film a été nominé par Cinema for Peace pour le film le plus précieux de lannée en 2016.'">
+	</div>
+		<div class="name"><p>La vérité</p></div> 
+
+		<div class="position">
+			<button onclick="removeElement6()">Supprimer</button><br>
+			<button onclick="changeVisibility6()">Cacher</button>
+		</div>
+		</div>
+
+
+		<div class="images" id="img7">
+			<div id="imgs" style="height:310px">
+
+		<img src="images/black panther.jpg"  onclick="document.getElementById('myvideo').src='https://www.youtube.com/embed/xjDjIWPwcPU';document.getElementById('dsk').innerHTML = 'Panthère noire est un film de super-héros américain de 2018 basé sur le personnage de Marvel Comics du même nom. Produit par Marvel Studios et distribué par Walt Disney Studios Motion Pictures, il sagit du 18e film de Marvel Cinematic Universe (MCU). Le film a été réalisé par Ryan Coogler, qui a co-écrit le scénario avec Joe Robert Cole, et il met en vedette Chadwick Boseman dans le rôle de TChalla / Black Panther aux côtés de Michael B.Jordan, Lupita Nyongo, Danai Gurira, Martin Freeman, Daniel Kaluuya, Letitia Wright, Winston Duke, Angela Bassett, Forest Whitaker et Andy Serkis. Dans Black Panther, TChalla est couronné roi de Wakanda après la mort de son père, mais il est défié par Killmonger qui prévoit dabandonner les politiques isolationnistes du pays et dentamer une révolution mondiale. '">
+	</div>
+		<div class="name"><p>Panthère noire</p></div> 
+
+		<div class="position">
+			<button onclick="removeElement7()">Supprimer</button><br>
+			<button onclick="changeVisibility7()">Cacher</button>
+		</div>
+		</div>
+
+		<div class="images" id="img8">
+			<div id="imgs" style="height:310px">
+
+		    <img src="images/joker.jpg"  onclick="document.getElementById('myvideo').src='https://www.youtube.com/embed/_pk-qMdR9Lo';document.getElementById('dsk').innerHTML = 'Joker est un thriller psychologique américain 2019 réalisé et produit par Todd Phillips, qui a co-écrit le scénario avec Scott Silver. Le film, basé sur des personnages de DC Comics, met en vedette Joaquin Phoenix dans le rôle du Joker et fournit une histoire dorigine possible pour le personnage. Situé en 1981, il suit Arthur Fleck, un comédien stand-up raté dont la descente dans la folie et le nihilisme inspire une violente révolution contre-culturelle contre les riches dans une ville en décomposition de Gotham City. Robert De Niro, Zazie Beetz, Frances Conroy, Brett Cullen, Glenn Fleshler, Bill Camp, Shea Whigham et Marc Maron apparaissent dans des rôles de soutien. Joker a été produit par Warner Bros Pictures, DC Films et Joint Effort, en association avec Bron Creative et Village Roadshow Pictures, et distribué par Warner Bros. '">
+		</div>
+		<div class="name"><p>Joker</p></div>
+
+		<div class="position">
+				<button onclick="removeElement8()">Supprimer</button><br>
+			    <button onclick="changeVisibility8()">Cacher</button>
+		</div>
+		</div>
+
+		<div class="images" id="img9">
+			<div id="imgs" style="height:310px">
+
+		       <img src="images/snake eyes.jpg" onclick="document.getElementById('myvideo').src='https://www.youtube.com/embed/OUsERqfV3Es';document.getElementById('dsk').innerHTML = 'Œil de vipèreest un thriller de complot américain de 1998 réalisé par Brian De Palma. Il met en vedette Nicolas Cage, Gary Sinise et Carla Gugino. Le film a été écrit par David Koepp et De Palma, et a été diffusé en salles le 7 août 1998. Il a coûté environ 73 millions de dollars à produire et a retourné 103 millions de dollars dans le monde, mais a reçu des critiques mitigées de la part des critiques. '"> </div>
+
+		<div class="name"><p>Œil de vipère</p></div> 
+
+		<div class="position">
+			<button onclick="removeElement9()">Supprimer</button><br>
+			<button onclick="changeVisibility9()">Cacher</button>
+		</div>
+		</div>
+
+		<div class="images" id="img10">
+			<div id="imgs" style="height:310px">
+
+		         <img src="images/the heist.jpg"  onclick="document.getElementById('myvideo').src='https://www.youtube.com/embed/BvJDL8v8lTk';document.getElementById('dsk').innerHTML = 'Le casse, (également appelé Bus 657), est un thriller daction américain de 2015, réalisé par Scott Mann et écrit par Stephen Cyrus Sepher et Max Adams, basé sur lhistoire originale de Sepher. Le film met en vedette Robert De Niro, Jeffrey Dean Morgan, Kate Bosworth, Morris Chestnut, Dave Bautista, Sepher et Gina Carano. Lintrigue du film tourne autour dun casse de casino par un employé qui doit payer le traitement de ses filles malades.Le film a été publié le 13 novembre 2015 par Lionsgate Premiere.'"></div>
+
+		<div class="name"><p>Le casse</p></div>
+
+		<div class="position">
+				<button onclick="removeElement10()">Supprimer</button><br>
+				<button onclick="changeVisibility10()">Cacher</button>
+		</div>
+		</div>
+
+
+		<div class="images" id="img11">
+			<div id="imgs" style="height:310px">
+
+		         <img src="images/orphan.jpg"  onclick="document.getElementById('myvideo').src='https://www.youtube.com/embed/m5BSLNAKIZs';document.getElementById('dsk').innerHTML = 'Orphelin est un film dhorreur psychologique de 2009 réalisé par Jaume Collet-Serra et écrit par David Leslie Johnson daprès une histoire dAlex Mace. Le film met en vedette Vera Farmiga, Peter Sarsgaard, Isabelle Fuhrman, C. C. H. Pounder et Jimmy Bennett. Lintrigue est centrée sur un couple qui, après la mort de leur enfant à naître, adopte une mystérieuse fillette de neuf ans.Le film est une coproduction internationale entre les États-Unis, le Canada, lAllemagne et la France. Il a été produit par Joel Silver et Susan Downey de Dark Castle Entertainment, et Leonardo DiCaprio et Jennifer Davisson Killoran dAppian Way Productions. La photographie principale du film a eu lieu au Canada, dans les villes de St. Thomas, Toronto, Port Hope et Montréal.  '"></div>
+
+		<div class="name"><p>Orphelin</p></div>
+			
+		<div class="position">
+				<button onclick="removeElement11()">Supprimer</button><br>
+				<button onclick="changeVisibility11()">Cacher</button>
+		</div>
+		</div>
+
+		<div class="images" id="img12">
+			<div id="imgs" style="height:310px">
+
+		      <img src="images/my zoe.jpg"  onclick="document.getElementById('myvideo').src='https://www.youtube.com/embed/V7Zjmr0f20E';document.getElementById('dsk').innerHTML = 'Mon Zoe est un film dramatique 2019 écrit et réalisé par Julie Delpy. Le film a été présenté en première au Festival international du film de Toronto 2019 dans le cadre du programme Platform Prize. . Zoé signifie tout pour sa mère et donc lorsque la tragédie frappe la famille fracturée, Isabelle utilise son expertise pour prendre les choses en main. Comme lamour de cette mère na pas de limites, Isabelle se rend en Russie à la recherche de laide dun médecin de fertilité de renommée mondiale (Daniel Brühl) qui, selon Isabelle, peut aider à ramener sa petite fille. '">
+		  </div>
+
+		<div class="name"><p>Mon zoe</p></div>
+
+		<div class="position">
+		       <button onclick="removeElement12()">Supprimer</button><br>
+		       <button onclick="changeVisibility12()">Cacher</button>
+		</div>
+		</div>
+		</div>
+		
+		<div class="footer"> 
+		   <center>
+		     Copyright &copy; 2020, Netflix RAFIKI.
+		   </center>
+		</div>
+
+
+		
+		<div class="films">
+
+		    <iframe width="630" height="340" id="myvideo" border="black" src="https://www.youtube.com/embed/s122VhgDbEY">
+		    </iframe>
+
+		<div>
+			<button class="b" onclick="openFullscreen();">Plein écran</button><br></div>
+			<div id = "dsk1" style="color:white ;height:300px">
+		<P id="dsk"> </p></div>
+
+		</div>
+
+		<script>
+		var elem = document.getElementById("myvideo");
+		
+		function openFullscreen() {
+		if (elem.requestFullscreen) {
+		elem.requestFullscreen();
+		} else if (elem.mozRequestFullscreen) {
+		elem.mozRequestFullscreen();
+		} else if (elem.webkitRequestFullscreen) {
+		elem.webkitRequestFullscreen();
+		} else if (elem.msRequestFullscreen) {
+		elem.msRequestFullscreen();
+		}
+		}
+		function removeElement1() {
+			document.getElementById("img1").style.display = "none";
+		}
+		function removeElement2() {
+			document.getElementById("img2").style.display = "none";
+		}
+		function removeElement3() {
+			document.getElementById("img3").style.display = "none";
+		}
+		function removeElement4() {
+			document.getElementById("img4").style.display = "none";
+		}
+		function removeElement5() {
+			document.getElementById("img5").style.display = "none";
+		}
+		function removeElement6() {
+			document.getElementById("img6").style.display = "none";
+		}
+		function removeElement7() {
+			document.getElementById("img7").style.display = "none";
+		}
+		function removeElement8() {
+			document.getElementById("img8").style.display = "none";
+		}
+		function removeElement9() {
+			document.getElementById("img9").style.display = "none";
+		}
+		function removeElement10() {
+			document.getElementById("img10").style.display = "none";
+		}
+		function removeElement11() {
+			document.getElementById("img11").style.display = "none";
+		}
+		function removeElement12() {
+			document.getElementById("img12").style.display = "none";
+		}
+
+
+		
+		function changeVisibility1() {
+			document.getElementById("img1").style.visibility = "hidden";
+		}
+		function changeVisibility2() {
+			document.getElementById("img2").style.visibility = "hidden";
+		}
+		function changeVisibility3() {
+			document.getElementById("img3").style.visibility = "hidden";
+		}
+		function changeVisibility4() {
+			document.getElementById("img4").style.visibility = "hidden";
+		}
+		function changeVisibility5() {
+			document.getElementById("img5").style.visibility = "hidden";
+		}
+		function changeVisibility6() {
+			document.getElementById("img6").style.visibility = "hidden";
+		}
+		function changeVisibility7() {
+			document.getElementById("img7").style.visibility = "hidden";
+		}
+		function changeVisibility8() {
+			document.getElementById("img8").style.visibility = "hidden";
+		}
+		function changeVisibility9() {
+			document.getElementById("img9").style.visibility = "hidden";
+		}
+		function changeVisibility10() {
+			document.getElementById("img10").style.visibility = "hidden";
+		}
+		function changeVisibility11() {
+			document.getElementById("img11").style.visibility = "hidden";
+		}
+		function changeVisibility12() {
+			document.getElementById("img12").style.visibility = "hidden";
+		}
+
+
+		function resetElement() {
+			document.getElementById("img1").style.visibility = "visible";
+			document.getElementById("img1").style.display = "block";
+		    document.getElementById("img2").style.visibility = "visible";
+		    document.getElementById("img2").style.display = "block";
+			document.getElementById("img3").style.visibility = "visible";
+			document.getElementById("img3").style.display = "block";
+		    document.getElementById("img4").style.visibility = "visible";
+		    document.getElementById("img4").style.display = "block";
+			document.getElementById("img5").style.visibility = "visible";
+		    document.getElementById("img5").style.display = "block";
+		    document.getElementById("img6").style.visibility = "visible";
+		    document.getElementById("img6").style.display = "block";
+			document.getElementById("img7").style.visibility = "visible";
+			document.getElementById("img7").style.display = "block";
+		    document.getElementById("img8").style.visibility = "visible";
+		    document.getElementById("img8").style.display = "block";
+		    document.getElementById("img9").style.visibility = "visible";
+		    document.getElementById("img9").style.display = "block";
+		    document.getElementById("img10").style.visibility = "visible";
+		    document.getElementById("img10").style.display = "block";
+		    document.getElementById("img11").style.visibility = "visible";
+		    document.getElementById("img11").style.display = "block";
+		document.getElementById("img12").style.visibility = "visible";
+		document.getElementById("img12").style.display = "block";
+		
+		}
+	</script>
+		
+  </body>
+		
+</html>
